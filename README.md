@@ -1,5 +1,5 @@
 # DisableHttpProxy
-实现 iOS App 禁止被抓包
+防止 iOS App 被抓包
 
 ## 安装
 拷贝 `NSURLSession+DisableProxy.h` 和 `NSURLSession+DisableProxy.m` 到工程中即可
