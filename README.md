@@ -13,5 +13,8 @@
 ## 原理
 让 NSURLSessionConfiguration 的 connectionProxyDictionary 属性为空即可
 
+## 测试
+iOS 上使用 Stream App 来抓包，亲测开启 disableHttpProxy 后无法抓到任何请求
+
 ## 参考
 [ZXRequestBlock](https://github.com/SmileZXLee/ZXRequestBlock)，但是这个由于引入了 `ZXURLProtocol` 类导致我的 React Native App 启动无法请求本地服务器，故将其核心功能抽出来单独成库
